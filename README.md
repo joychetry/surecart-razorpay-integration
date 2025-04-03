@@ -2,6 +2,7 @@
 
 🚀 **SureCart Razorpay Integration** is a WordPress plugin that enables seamless **Razorpay** payment gateway integration with **SureCart** using webhooks.
 
+[![GitHub Downloads](https://img.shields.io/github/downloads/joychetry/surecart-razorpay-integration/total?color=green&label=Downloads)](https://github.com/joychetry/surecart-razorpay-integration/releases)
 [![WordPress](https://img.shields.io/badge/WordPress-Compatible-blue)](https://wordpress.org/)
 [![Razorpay](https://img.shields.io/badge/Razorpay-Integration-green)](https://razorpay.com/)
 [![SureCart](https://img.shields.io/badge/SureCart-Supported-orange)](https://surecart.com/)
