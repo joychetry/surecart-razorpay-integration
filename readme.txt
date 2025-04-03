@@ -5,8 +5,8 @@ Requires at least: 5.6
 Tested up to: 6.5  
 Requires PHP: 7.4  
 Stable tag: 1.0  
-License: GPLv2 or later  
-License URI: https://www.gnu.org/licenses/gpl-2.0.html  
+License: GPLv3 or later  
+License URI: https://www.gnu.org/licenses/gpl-3.0.html  
 
 == Description ==  
 This plugin integrates **SureCart** with **Razorpay** for seamless online payments. It enables:  
