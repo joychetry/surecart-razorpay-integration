@@ -13,7 +13,7 @@
 
 ### **1️⃣ Download & Upload**
 1. Download the plugin from the **GitHub Repository**:  
-   👉 **[SureCart Razorpay Plugin](https://github.com/joychetry/surecart-razorpay-integration)**
+   👉 **[SureCart Razorpay Plugin](https://github.com/joychetry/surecart-razorpay-integration/releases/)**
 2. Upload the plugin to WordPress:  
    - Go to **WordPress Dashboard → Plugins → Add New → Upload Plugin**  
    - Select the ZIP file and click **Install Now**  
@@ -42,6 +42,31 @@
 1. Go to **SC Razorpay Settings** in WordPress  
 2. Enter your **SureCart API Key** (found in **SureCart Dashboard → API Keys**)  
 3. Save the settings ✅
+
+---
+
+## 🧾 **Add Razorpay in SureCart Payment Processors**
+
+1. Go to **WordPress → SureCart → Settings → Payment Processors**  
+2. Click **Add Payment Processor**  
+3. Fill in the details:
+- **Name:** Razorpay  
+- **Processor Type:** Custom Processor  
+- **Webhook URL:**  
+  ```
+  https://yourwebsite.com/wp-json/surecart-razorpay/v1/razorpay-webhook/
+  ```
+- **Client ID / Secret:** Use Razorpay API credentials  
+- **Enable Debug Mode:** Optional, useful for testing  
+4. Save the processor
+
+Then:
+
+5. Go to **SureCart → Payment Methods → Add New**  
+6. Choose the newly added **Razorpay Processor**  
+7. Enable it and **save changes**
+
+✅ Razorpay will now be visible on checkout as a payment option!
 
 ---
 
@@ -81,4 +106,4 @@ This plugin is licensed under the **MIT License**.
 
 ---
 
-🚀 **Built with ❤️ by [Joy Chetry](https://github.com/joychetry/)**  
+🚀 **Built with ❤️ by [Joy Chetry](https://github.com/joychetry/)**
